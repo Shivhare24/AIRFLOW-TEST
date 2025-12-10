@@ -9,10 +9,9 @@ s3_object_key = 'test_output/users_data.csv'
 
 try:
     conn = psycopg2.connect(
-        host="sgx-db.c9xgkwg1lrq2.ap-south-1.rds.amazonaws.com",  # Or the IP address/hostname of your PostgreSQL server
-        # database="some-postgress",
+        host="0.0.0.0",
         user="postgres",
-        password="3cvhgADnSXvQENSAQ0qE",
+        password="myscretpassword",
         port=5432
     )
     print("Connection to PostgreSQL successful!")
