@@ -1,0 +1,11 @@
+[project]
+name = "airflow-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3>=1.42.4",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
+]
